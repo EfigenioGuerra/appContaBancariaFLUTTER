@@ -1,3 +1,4 @@
+import 'package:appcontabancaria/count.dart';
 import 'package:appcontabancaria/views/statement.dart';
 import 'package:flutter/material.dart';
 
@@ -14,7 +15,7 @@ class Home extends StatelessWidget {
           seedColor: Colors.lightBlue,
         )
       ),
-      home: const Statement(),
+      home: const Count(),
     );
   }
 }
